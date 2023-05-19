@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(167, 170, 166);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading{
+  margin-top:5%;
+  text-align: center;
+  font-style: italic;
+}
+.picture{
+  display: inline;
+  height:500px;
+  width: 100%;
+  margin-top:3%;
+}
+.picture img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain
+}
+.paragraph{
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 18px;
+  width:500px;
+  padding: 5px 10px 15px 15px;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px;
+  border-top: 0;
+  border-style: solid;
+  border-color: black;
+}
+.made{
+  font-family: Roboto;
+  margin-top:15px;
+  margin-bottom:5%;
+}
